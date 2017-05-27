@@ -1,12 +1,12 @@
 ## cacheMatrix. 
 ## The following functions accomplish 2 objects, 1) solve for the matrix 
 ## inverse of the matrix inputted and 2) stores this value to avoid having
-## to recompute this value whenever it is necessary.
+## to recompute this value when it is called by the user.
 
 
-## This function creates the cache matrix, storing the original matrix
+## This function creates a cacheMatrix, storing the original matrix
 ## and two getter/setter pairs which allow the user to get/set the matrix
-## and its inverse. 
+## and its matrix inverse. 
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
